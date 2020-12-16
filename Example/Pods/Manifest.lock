@@ -1,0 +1,16 @@
+PODS:
+  - SipHashPod (0.1.0)
+
+DEPENDENCIES:
+  - SipHashPod (from `../`)
+
+EXTERNAL SOURCES:
+  SipHashPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SipHashPod: 3281b5a40120e82698ba4824de94cb4cdab8bec9
+
+PODFILE CHECKSUM: b54fc2f54d753d2d6b5b35824918023e32376e99
+
+COCOAPODS: 1.10.0

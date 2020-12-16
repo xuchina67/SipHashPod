@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F70811A8F05500E223F8F3807D3C01 /* Primitive Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A61D3FB91F2BBB602A7D2CD9E42E38 /* Primitive Types.swift */; };
+		26153BBDCDF7ADE2C7E238A5526F6152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		27E886FBE93EB4E5FE35B45261C4231C /* SipHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CF5F46F4EDEC65F73AB887E9246B1 /* SipHashable.swift */; };
+		3B58B2DFF61BF1AA23C6D4C8C87B8AC2 /* Pods-SipHashPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1149AEE36CFC4C89DDEE548EDC74C274 /* Pods-SipHashPod_Tests-dummy.m */; };
+		5D693845DEFAC4C7463755869FD28DCD /* Pods-SipHashPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 886B93A28B87FA53BAA743F80BD503B4 /* Pods-SipHashPod_Example-dummy.m */; };
+		66EC8CB774921B08688AD118DFAEEEA2 /* Pods-SipHashPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D528A825AE2FAD492FE63C2BA0058F /* Pods-SipHashPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A39BDAB2B7E7BD8F575562EA18C70D94 /* SipHashPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C90EEA7A9B506BCEEB0FC1E06B0082 /* SipHashPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B97DB7BB991FB5FA61330EE6943E5D /* RandomUInt64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A89B110793F772322D6C1B7C91EAFC /* RandomUInt64.swift */; };
+		D9081EC3116C55FFD5EF3C154AF8E949 /* Pods-SipHashPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02AE84378DF3399FD73BDFA0B20B2769 /* Pods-SipHashPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E69C415F43A0B58CD4CC92490FEEF154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF03EE8F264032CAF459C90193D24728 /* SipHashPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A2EE494E646692EFFAEC0CA4B707BC /* SipHashPod-dummy.m */; };
+		F3DD252A44C001136F063C783FEBD60C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F9EA834E305D96D974450571D895CB6E /* SipHasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDA2229399FBF199FA48EF1816D6A62 /* SipHasher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D57FBCCD5B42B9D307A51DB19F0ADA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92F32B42C7A7856EAED1953B049D3CD4;
+			remoteInfo = SipHashPod;
+		};
+		55C5E355D19E9EE057A490D412FDF15C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423D813EB9D31E310A62B8205A25B97E;
+			remoteInfo = "Pods-SipHashPod_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007B17E4D3299DFD9B128B08B215D9A7 /* Pods-SipHashPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SipHashPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		02AE84378DF3399FD73BDFA0B20B2769 /* Pods-SipHashPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SipHashPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		02C90EEA7A9B506BCEEB0FC1E06B0082 /* SipHashPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SipHashPod-umbrella.h"; sourceTree = "<group>"; };
+		1149AEE36CFC4C89DDEE548EDC74C274 /* Pods-SipHashPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SipHashPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		12465B8D54D780B13CFEB752E065E860 /* SipHashPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SipHashPod.debug.xcconfig; sourceTree = "<group>"; };
+		12A2EE494E646692EFFAEC0CA4B707BC /* SipHashPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SipHashPod-dummy.m"; sourceTree = "<group>"; };
+		2249316667938824D164A805C15CE88B /* Pods-SipHashPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SipHashPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		23AC830B7B86D914C1AAD2D1CA318F1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2DB1E64DDA2AD2E301312627496B3494 /* Pods-SipHashPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SipHashPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E5F8769C171A54D2BCD44F2D9233634 /* Pods_SipHashPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SipHashPod_Tests.framework; path = "Pods-SipHashPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		304CF5F46F4EDEC65F73AB887E9246B1 /* SipHashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SipHashable.swift; path = SipHashPod/Classes/SipHashable.swift; sourceTree = "<group>"; };
+		3161F1653F97AD8FFEDBD1F9A7B72570 /* Pods-SipHashPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SipHashPod_Example.modulemap"; sourceTree = "<group>"; };
+		3B10F0E741CE831A3D91CECFC57D9568 /* Pods-SipHashPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SipHashPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		56532664A69CE25BAF9CE8CB57B1C8DE /* SipHashPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SipHashPod-Info.plist"; sourceTree = "<group>"; };
+		69A89B110793F772322D6C1B7C91EAFC /* RandomUInt64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomUInt64.swift; path = SipHashPod/Classes/RandomUInt64.swift; sourceTree = "<group>"; };
+		6C42D861B92A24467DD70CFC11194381 /* SipHashPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SipHashPod.framework; path = SipHashPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		809CA1436736F79DB222A929A3E6582A /* Pods-SipHashPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SipHashPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85A74A192DEF8D321E0E991E7D02AB60 /* SipHashPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SipHashPod.modulemap; sourceTree = "<group>"; };
+		87C8BF1832B26E0ADCEF50FEE1F7FF91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		886B93A28B87FA53BAA743F80BD503B4 /* Pods-SipHashPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SipHashPod_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5D528A825AE2FAD492FE63C2BA0058F /* Pods-SipHashPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SipHashPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		ACCCD893378923D2F8D62522BE485559 /* Pods-SipHashPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SipHashPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1C27DDE1488078F7C71185EB273C85C /* SipHashPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SipHashPod-prefix.pch"; sourceTree = "<group>"; };
+		B7A61D3FB91F2BBB602A7D2CD9E42E38 /* Primitive Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Primitive Types.swift"; path = "SipHashPod/Classes/Primitive Types.swift"; sourceTree = "<group>"; };
+		BFDA2229399FBF199FA48EF1816D6A62 /* SipHasher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SipHasher.swift; path = SipHashPod/Classes/SipHasher.swift; sourceTree = "<group>"; };
+		C08DBB14A17BF41A5D54AC006F55FB08 /* Pods-SipHashPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SipHashPod_Tests-Info.plist"; sourceTree = "<group>"; };
+		C4DCF6AF3E916F1E31C4073E91C6CA92 /* Pods-SipHashPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SipHashPod_Example-Info.plist"; sourceTree = "<group>"; };
+		C5F720FE879F92CB4CA4FF791864A341 /* Pods-SipHashPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SipHashPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA2ACAB7E4AE071145EA736638EEDF13 /* Pods-SipHashPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SipHashPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D40675E1A197EE4B8D6DBCA625DD52EA /* SipHashPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SipHashPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D8A3F7465E1236C93C7CE7CC31E2CA98 /* Pods-SipHashPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SipHashPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DF6194BE4A8F57338FC8A12798331230 /* SipHashPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SipHashPod.release.xcconfig; sourceTree = "<group>"; };
+		EC62A7CAC43F8C6DE4F516963F1D00F9 /* Pods-SipHashPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SipHashPod_Tests.modulemap"; sourceTree = "<group>"; };
+		F2E129509A00539C9A569E8FC9CC2EC0 /* Pods_SipHashPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SipHashPod_Example.framework; path = "Pods-SipHashPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D3C6783FC84ACBA321E69B1731C010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DD252A44C001136F063C783FEBD60C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09D707A417CF905A48CDCEA6E9470ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69C415F43A0B58CD4CC92490FEEF154 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCC99869421897FEA1A643CC7020F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26153BBDCDF7ADE2C7E238A5526F6152 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08913BC07D94D556CBFC9566D155FAAC /* Pods-SipHashPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC62A7CAC43F8C6DE4F516963F1D00F9 /* Pods-SipHashPod_Tests.modulemap */,
+				809CA1436736F79DB222A929A3E6582A /* Pods-SipHashPod_Tests-acknowledgements.markdown */,
+				2DB1E64DDA2AD2E301312627496B3494 /* Pods-SipHashPod_Tests-acknowledgements.plist */,
+				1149AEE36CFC4C89DDEE548EDC74C274 /* Pods-SipHashPod_Tests-dummy.m */,
+				C08DBB14A17BF41A5D54AC006F55FB08 /* Pods-SipHashPod_Tests-Info.plist */,
+				02AE84378DF3399FD73BDFA0B20B2769 /* Pods-SipHashPod_Tests-umbrella.h */,
+				007B17E4D3299DFD9B128B08B215D9A7 /* Pods-SipHashPod_Tests.debug.xcconfig */,
+				2249316667938824D164A805C15CE88B /* Pods-SipHashPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-SipHashPod_Tests";
+			path = "Target Support Files/Pods-SipHashPod_Tests";
+			sourceTree = "<group>";
+		};
+		28D81CB3253B8358F6013D823A5CC404 /* SipHashPod */ = {
+			isa = PBXGroup;
+			children = (
+				B7A61D3FB91F2BBB602A7D2CD9E42E38 /* Primitive Types.swift */,
+				69A89B110793F772322D6C1B7C91EAFC /* RandomUInt64.swift */,
+				304CF5F46F4EDEC65F73AB887E9246B1 /* SipHashable.swift */,
+				BFDA2229399FBF199FA48EF1816D6A62 /* SipHasher.swift */,
+				CCA88E1127D469E289AAF2BEA8F15083 /* Pod */,
+				8D680CB0DDAB55CBBC266D2D0DAA57F6 /* Support Files */,
+			);
+			name = SipHashPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		86C83E15F79CDBC5190FC73E347E3D40 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28D81CB3253B8358F6013D823A5CC404 /* SipHashPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		87426428F480400D4A0EC00B803D42BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E129509A00539C9A569E8FC9CC2EC0 /* Pods_SipHashPod_Example.framework */,
+				2E5F8769C171A54D2BCD44F2D9233634 /* Pods_SipHashPod_Tests.framework */,
+				6C42D861B92A24467DD70CFC11194381 /* SipHashPod.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D680CB0DDAB55CBBC266D2D0DAA57F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A74A192DEF8D321E0E991E7D02AB60 /* SipHashPod.modulemap */,
+				12A2EE494E646692EFFAEC0CA4B707BC /* SipHashPod-dummy.m */,
+				56532664A69CE25BAF9CE8CB57B1C8DE /* SipHashPod-Info.plist */,
+				B1C27DDE1488078F7C71185EB273C85C /* SipHashPod-prefix.pch */,
+				02C90EEA7A9B506BCEEB0FC1E06B0082 /* SipHashPod-umbrella.h */,
+				12465B8D54D780B13CFEB752E065E860 /* SipHashPod.debug.xcconfig */,
+				DF6194BE4A8F57338FC8A12798331230 /* SipHashPod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SipHashPod";
+			sourceTree = "<group>";
+		};
+		C373DFB65DA50A7EB039797EEA560ECD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB18B198734C62586AA5FDC73A960607 /* Pods-SipHashPod_Example */,
+				08913BC07D94D556CBFC9566D155FAAC /* Pods-SipHashPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CCA88E1127D469E289AAF2BEA8F15083 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				23AC830B7B86D914C1AAD2D1CA318F1D /* LICENSE */,
+				87C8BF1832B26E0ADCEF50FEE1F7FF91 /* README.md */,
+				D40675E1A197EE4B8D6DBCA625DD52EA /* SipHashPod.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				86C83E15F79CDBC5190FC73E347E3D40 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				87426428F480400D4A0EC00B803D42BC /* Products */,
+				C373DFB65DA50A7EB039797EEA560ECD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB18B198734C62586AA5FDC73A960607 /* Pods-SipHashPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3161F1653F97AD8FFEDBD1F9A7B72570 /* Pods-SipHashPod_Example.modulemap */,
+				ACCCD893378923D2F8D62522BE485559 /* Pods-SipHashPod_Example-acknowledgements.markdown */,
+				CA2ACAB7E4AE071145EA736638EEDF13 /* Pods-SipHashPod_Example-acknowledgements.plist */,
+				886B93A28B87FA53BAA743F80BD503B4 /* Pods-SipHashPod_Example-dummy.m */,
+				C5F720FE879F92CB4CA4FF791864A341 /* Pods-SipHashPod_Example-frameworks.sh */,
+				C4DCF6AF3E916F1E31C4073E91C6CA92 /* Pods-SipHashPod_Example-Info.plist */,
+				A5D528A825AE2FAD492FE63C2BA0058F /* Pods-SipHashPod_Example-umbrella.h */,
+				D8A3F7465E1236C93C7CE7CC31E2CA98 /* Pods-SipHashPod_Example.debug.xcconfig */,
+				3B10F0E741CE831A3D91CECFC57D9568 /* Pods-SipHashPod_Example.release.xcconfig */,
+			);
+			name = "Pods-SipHashPod_Example";
+			path = "Target Support Files/Pods-SipHashPod_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		912FE8ED5ECE369C4532E9A91410D7EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39BDAB2B7E7BD8F575562EA18C70D94 /* SipHashPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A2167085B493DA1F99F788E46869D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9081EC3116C55FFD5EF3C154AF8E949 /* Pods-SipHashPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F90074143C5614197E68FACA82330CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EC8CB774921B08688AD118DFAEEEA2 /* Pods-SipHashPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		423D813EB9D31E310A62B8205A25B97E /* Pods-SipHashPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036C1C7174D4EDD688A31FAA149A611D /* Build configuration list for PBXNativeTarget "Pods-SipHashPod_Example" */;
+			buildPhases = (
+				9F90074143C5614197E68FACA82330CC /* Headers */,
+				31C46C50B022E465F37BEC79B16FA19F /* Sources */,
+				7DCC99869421897FEA1A643CC7020F91 /* Frameworks */,
+				A109A42352C374000B91A71B50673D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				362B7C6592C4412CC028D578DEE20027 /* PBXTargetDependency */,
+			);
+			name = "Pods-SipHashPod_Example";
+			productName = "Pods-SipHashPod_Example";
+			productReference = F2E129509A00539C9A569E8FC9CC2EC0 /* Pods_SipHashPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6463DF3308D4121C5C51981AA2A16B5D /* Pods-SipHashPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8A5683ADB1E57C0C66C6653C4485425 /* Build configuration list for PBXNativeTarget "Pods-SipHashPod_Tests" */;
+			buildPhases = (
+				99A2167085B493DA1F99F788E46869D1 /* Headers */,
+				3D0D9F861F899F5578A089C330A790D8 /* Sources */,
+				07D3C6783FC84ACBA321E69B1731C010 /* Frameworks */,
+				8D7540A634CA40778CD1152E3DE41025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E7F147CCBD2DE2A9E2831F12212B15 /* PBXTargetDependency */,
+			);
+			name = "Pods-SipHashPod_Tests";
+			productName = "Pods-SipHashPod_Tests";
+			productReference = 2E5F8769C171A54D2BCD44F2D9233634 /* Pods_SipHashPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92F32B42C7A7856EAED1953B049D3CD4 /* SipHashPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91AF72E59682C2D1689B624476BB63E6 /* Build configuration list for PBXNativeTarget "SipHashPod" */;
+			buildPhases = (
+				912FE8ED5ECE369C4532E9A91410D7EF /* Headers */,
+				448CE4F7A26903618BCDF2EF34BAA127 /* Sources */,
+				09D707A417CF905A48CDCEA6E9470ECF /* Frameworks */,
+				8C18259C0F40F2F6495F2CB8173774EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SipHashPod;
+			productName = SipHashPod;
+			productReference = 6C42D861B92A24467DD70CFC11194381 /* SipHashPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 87426428F480400D4A0EC00B803D42BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423D813EB9D31E310A62B8205A25B97E /* Pods-SipHashPod_Example */,
+				6463DF3308D4121C5C51981AA2A16B5D /* Pods-SipHashPod_Tests */,
+				92F32B42C7A7856EAED1953B049D3CD4 /* SipHashPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C18259C0F40F2F6495F2CB8173774EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7540A634CA40778CD1152E3DE41025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A109A42352C374000B91A71B50673D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C46C50B022E465F37BEC79B16FA19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D693845DEFAC4C7463755869FD28DCD /* Pods-SipHashPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0D9F861F899F5578A089C330A790D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B58B2DFF61BF1AA23C6D4C8C87B8AC2 /* Pods-SipHashPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448CE4F7A26903618BCDF2EF34BAA127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F70811A8F05500E223F8F3807D3C01 /* Primitive Types.swift in Sources */,
+				D2B97DB7BB991FB5FA61330EE6943E5D /* RandomUInt64.swift in Sources */,
+				27E886FBE93EB4E5FE35B45261C4231C /* SipHashable.swift in Sources */,
+				F9EA834E305D96D974450571D895CB6E /* SipHasher.swift in Sources */,
+				EF03EE8F264032CAF459C90193D24728 /* SipHashPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		362B7C6592C4412CC028D578DEE20027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SipHashPod;
+			target = 92F32B42C7A7856EAED1953B049D3CD4 /* SipHashPod */;
+			targetProxy = 4D57FBCCD5B42B9D307A51DB19F0ADA9 /* PBXContainerItemProxy */;
+		};
+		59E7F147CCBD2DE2A9E2831F12212B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SipHashPod_Example";
+			target = 423D813EB9D31E310A62B8205A25B97E /* Pods-SipHashPod_Example */;
+			targetProxy = 55C5E355D19E9EE057A490D412FDF15C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0751FD72702A0D6549A3DC31AA65DA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007B17E4D3299DFD9B128B08B215D9A7 /* Pods-SipHashPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SipHashPod_Tests/Pods-SipHashPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SipHashPod_Tests/Pods-SipHashPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16440158557ABC29A612F65D551A7273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A3F7465E1236C93C7CE7CC31E2CA98 /* Pods-SipHashPod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SipHashPod_Example/Pods-SipHashPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SipHashPod_Example/Pods-SipHashPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2873AD6A9B6338D292898B26F3BCBDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2249316667938824D164A805C15CE88B /* Pods-SipHashPod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SipHashPod_Tests/Pods-SipHashPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SipHashPod_Tests/Pods-SipHashPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		373A96021EE627D7542A05F521C4FE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B10F0E741CE831A3D91CECFC57D9568 /* Pods-SipHashPod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SipHashPod_Example/Pods-SipHashPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SipHashPod_Example/Pods-SipHashPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C24AD608D048FF9B815A88D146277FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF6194BE4A8F57338FC8A12798331230 /* SipHashPod.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SipHashPod/SipHashPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SipHashPod/SipHashPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SipHashPod/SipHashPod.modulemap";
+				PRODUCT_MODULE_NAME = SipHashPod;
+				PRODUCT_NAME = SipHashPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FE5B4BDA9976B3D533E0690DE7E79C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12465B8D54D780B13CFEB752E065E860 /* SipHashPod.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SipHashPod/SipHashPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SipHashPod/SipHashPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SipHashPod/SipHashPod.modulemap";
+				PRODUCT_MODULE_NAME = SipHashPod;
+				PRODUCT_NAME = SipHashPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036C1C7174D4EDD688A31FAA149A611D /* Build configuration list for PBXNativeTarget "Pods-SipHashPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16440158557ABC29A612F65D551A7273 /* Debug */,
+				373A96021EE627D7542A05F521C4FE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91AF72E59682C2D1689B624476BB63E6 /* Build configuration list for PBXNativeTarget "SipHashPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5B4BDA9976B3D533E0690DE7E79C6A /* Debug */,
+				5C24AD608D048FF9B815A88D146277FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8A5683ADB1E57C0C66C6653C4485425 /* Build configuration list for PBXNativeTarget "Pods-SipHashPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0751FD72702A0D6549A3DC31AA65DA52 /* Debug */,
+				2873AD6A9B6338D292898B26F3BCBDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

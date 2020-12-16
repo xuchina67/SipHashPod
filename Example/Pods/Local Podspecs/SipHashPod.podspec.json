@@ -1,0 +1,22 @@
+{
+  "name": "SipHashPod",
+  "version": "0.1.0",
+  "summary": "SipHashPod",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xuchina67/SipHashPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xuchina67": "xuminjie@tron.network"
+  },
+  "source": {
+    "git": "https://github.com/xuchina67/SipHashPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SipHashPod/Classes/*"
+}

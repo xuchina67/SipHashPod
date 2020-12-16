@@ -1,0 +1,6 @@
+framework module SipHashPod {
+  umbrella header "SipHashPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

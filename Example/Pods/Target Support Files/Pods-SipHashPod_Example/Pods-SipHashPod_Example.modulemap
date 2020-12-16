@@ -1,0 +1,6 @@
+framework module Pods_SipHashPod_Example {
+  umbrella header "Pods-SipHashPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
